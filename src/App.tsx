@@ -1,16 +1,14 @@
-import React from 'react';
-import './App.css';
 import Home from './paginas/home/Home';
-import Navbar from './components/navBar/navBar';
-import Footer from './components/footer/Footer';
+import './App.css';
+import React from 'react';
 
 function App() {
+ 
   return (
     <>
-    <Navbar/>
-    <Home/>
-    <Footer/>
+      <Home/>
     </>
-);
+  );
 }
+
 export default App;
